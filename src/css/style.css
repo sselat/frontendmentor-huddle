@@ -6,7 +6,7 @@ font-family: 'Poppins', sans-serif;
 12.5
 */
 body {
-    max-height: 100vh;
+    min-height: 100vh;
     font-size: 62.5%;
 }
 .container {
@@ -40,6 +40,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    max-height: 80vh;
 }
 
 .col-2 {
@@ -49,6 +50,7 @@ body {
     align-items: flex-start;
     gap: 20px;
     padding: 100px 30px 160px 20px;
+    max-height: 80vh;
 }
 .main-content h1 {
     font-family: 'Poppins', sans-serif;
